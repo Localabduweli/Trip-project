@@ -1,0 +1,88 @@
+/* GOOGLE fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 17px;
+  color: #fff;
+  line-height: normal;
+}
+
+header {
+  position: relative;
+  height: 50vh; /* Half the height of the viewport */
+  overflow: hidden; /* Prevents slider overflow */
+  
+}
+
+#logo {
+  position: absolute;
+  top: 20px; /* Adjust top position */
+  left: 20px; /* Adjust left position */
+  font-size: 30px;
+  color: #fff;
+  z-index: 2; /* Ensure logo appears above the slider */
+}
+
+
+.slider-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700%; /* Adjusted width for 7 slides */
+  height: 100%;
+  display: flex;
+  animation: slide 30s linear infinite; /* Adjusted animation duration */
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjusted translation to loop through slides */
+  }
+}
+
+nav {
+  position: absolute;
+  top: 20px; /* Adjust top position */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px; /* Added missing 'px' */
+}
+
