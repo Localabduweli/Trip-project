@@ -1,112 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trip itinerary, Explore detailed itineraries, Plan for your next holiday">
+  <meta name="keywords" content="Travel, daytrip, cities, itineraries, activities, abroad, sightseeing, adventure, travel guides">
+  <title>Tripit</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Trip itinerary, Explore detailed itineraries, Plan for your next holiday,">
-    <meta name="keywords"
-        content="Travel, daytrip, cities, itineraries, activities, abroad, sightseeing, adventure, travel guides">
-    <!--This is the title of my website-->
-    <title>Tripit</title>
-    <!--Favicon code-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-    <!--Link for css file-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+<!--Favicon code-->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  </head>
 
-<body>
+  
+  <body>
+    <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Tripit</h1>
-        </a>
-
-<!--Open toggle box for menu-->
-<input type="checkbox" id="toggle" name="toggle">
-<label for="toggle" class="toggle-label">x</label>        
-<nav> 
-    <!-- The three options user clicks on -->
-    <ul id="menu">
-    <li><a href=""class="active">Discover</a></li>
-    <li><a href="">Itineraries</a></li>
-    <li><a href="">Sign in</a></li>
-    </ul>
-
-    
-</nav>
+      <a href="#"
+        ><img
+          class="logo"
+          src="./assets/images/Tripit_logo.png"
+          alt="Tripit logo"
+      /></a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav class="nav-animation">
+        <ul class="nav-list">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="menu.html">Discover</a></li>
+          
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="getintouch.html">Get in touch</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!--main content-->
     <main>
+      <section class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img id="slide-1" src="assets/images/london.jpeg" alt="London">
+            <img id="slide-2" src="assets/images/eiffel-tower-3349075_640.jpg" alt="Paris">
+            <img id="slide-3" src="assets/images/rome.webp" alt="Rome">
+            <img id="slide-4" src="assets/images/Istanbul.webp" alt="Istanbul">
+            <img id="slide-5" src="assets/images/Berlin Brandenburg gate getty.webp" alt="Berlin">
+            <img id="slide-6" src="assets/images/Barcelona.jpeg" alt="Barcelona">
+            <img id="slide-7" src="assets/images/Athens.webp" alt="Athens">
+          </div>
+          <div class="slider-nav">
+            <!-- Add anchor tags for slider navigation -->
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+            <a href="#slide-6"></a>
+            <a href="#slide-7"></a>
+          </div>
+        </div>
+      </section>
+<!-- Form for searching destinations -->
+<section id ="search form">
+    <form action="#" method="GET">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" placeholder="Enter destination...">
+        <button type="submit">Search</button>
+    </form>
+</section>
 
-        <!--Gallery-->
-    
-        <section>
-    
-    <div class="container">
-        <div class="slider-wrapper"> 
-            <div class="slider">
-        <img id = "slide-1" src="assets/images/london.jpeg" alt="London">
-        <img id ="slide-2" src="assets/images/eiffel-tower-3349075_640.jpg" alt="Paris">
-        <img id= "slide-3" src="assets/images/rome.webp" alt="Rome">
-        <img id= "slide-4" src="assets/images/Istanbul.webp" alt="Istanbul">
-        <img id="slide-5" src="assets/images/Berlin Brandenburg gate getty.webp" alt="Berlin">
-        <img id="slide-6" src="assets/images/Barcelona.jpeg" alt="Barcelona">
-        <img id= "slide-7" src="assets/images/Athens.webp" alt="Athens">
-    </div>
       
-    </div> 
-    <div class="slider-nav">
-        <a href="#slide-1"></a>
-        <a href="#slide-2"></a>
-        <a href="#slide-3"></a>
-        <a href="#slide-4"></a>
-        <a href="#slide-5"></a>
-        <a href="#slide-6"></a>
-        <a href="#slide-7"></a>
-
-    </div>
-    </div>
-        </section> 
-
-    
-        
-
-
-    </main>
-
-
-
-    <!--footer content-->
-    <footer> 
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
+      </main>
+      <footer>
+      
+      
     </footer>
-
-    <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/cb56c22edc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
