@@ -264,6 +264,46 @@ main{
   color: inherit;
 }
 
+
+/*Review of Barca*/
+
+.review-container {
+  display: flex;
+  align-items: center;
+}
+
+.five-circles {
+  display: flex;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00aa6c;;
+  margin-right: 5px;
+  
+}
+
+h2 {
+  margin-left: 5px;
+  
+}
+
+/* review article */
+#review-barcelona{
+  display: block;
+  flex-grow: 1;
+  background-color: #cfd3cf;
+}
+
+#review-barcelona p{
+  padding: 60px 80px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .container {
