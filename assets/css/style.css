@@ -40,14 +40,28 @@ header {
   align-items: center;
 }
 
-.Title{
-  font-size: 32px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  margin: 20px 0;
-
-  
+/* backgorund image */
+.background-title{
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 2px 4px -4px #0002,-4px 2px 4px -4px #0002 ;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 900px;
 }
+.Title{
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  text-shadow: 2px 2px 6px #000;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 325%;
+}
+
+
 
 .fa-solid {
   font-size: 2rem;
@@ -84,8 +98,9 @@ header {
 /* Slider section  */
 .container {
   padding: 2rem;
-  
-  
+  width: 100%;
+  max-width: 1200px;
+  margin:auto
 }
 
 /* changes the posistion of the slides */
@@ -95,21 +110,14 @@ header {
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 footer i {
   padding-left: 1rem;
 }
 
-/* Keyframes for slide animation */
-@keyframes slideAnimation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 
 
 .slider {
@@ -119,13 +127,15 @@ footer i {
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   border-radius: 0.5rem;
   object-fit: cover;
+  width: 100%;
+  height: 500px;
 }
 
 .slider img {
   flex: 1 0 100%;
   scroll-snap-align: start;
   object-fit: cover;
-  animation: slideAnimation 20s linear infinite;
+ 
 }
 
 .slider-nav {
@@ -178,7 +188,8 @@ nav {
   justify-content: center;
   align-items: center;
   height: 30vh;
-  margin-bottom: 1rem ;
+  margin-bottom: 1rem;
+  
 }
 .city-form {
   border-radius: 10px;
@@ -187,8 +198,11 @@ nav {
   display: flex;
   border: 2px solid #3a3a3a;  /* Adjusted border property */
   width: 400px;
-  height: 100px; 
-  margin-top: 140px;
+  height: 50px; 
+  margin-top: 1px;
+  justify-content: center;
+  align-items: center;
+  
   
 }
 
@@ -204,9 +218,53 @@ nav {
 }
 
 main{
-  padding-top: 150px;
+  padding-top: 100px;
 
 }
+
+/*Points section*/
+
+.points {
+  text-align: center; 
+  margin-bottom: 50px; 
+  margin-right: 7px;
+  
+}
+
+#home-points p {
+  
+  font-size: 2rem;
+  font-family: "TTNorms";
+  text-align: center;
+  color: #9e9e9e;
+  line-height: 1.8rem;
+}
+
+/* information under slider*/
+.caption-slide{
+  padding: 60px 70px;
+  justify-content: center;
+  text-align: center;
+}
+
+.caption-slide h3{
+  justify-content: center;
+  display: flex;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "TTNorms";
+}
+
+.caption-slide p {
+  font-family: "TTNorms";
+  text-align-last: justify;
+  color: #9e9e9e;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+
+}
+
+
 /* discover title*/
 .discover-title{
   font-size: 32px;
@@ -267,6 +325,22 @@ main{
 
 /*Review of Barca*/
 
+
+.review-title{
+  margin-top: 20px;
+}
+
+.review-title h1{
+  font-family: "Gabarito", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.review-title p {
+  margin-left: 2px;
+  font-size: 1.5em ;
+  color: #9e9e9e;
+}
 .review-container {
   display: flex;
   align-items: center;
@@ -275,6 +349,9 @@ main{
 .five-circles {
   display: flex;
 }
+.five-circles p{
+  color: #9e9e9e;
+}
 
 .circle {
   width: 20px;
@@ -282,6 +359,7 @@ main{
   border-radius: 50%;
   background-color: #00aa6c;;
   margin-right: 5px;
+  margin-left: 2px;
   
 }
 
@@ -299,10 +377,97 @@ h2 {
 
 #review-barcelona p{
   padding: 60px 80px;
-  font-size: 1.1rem;
+  font-size: 2rem;
   justify-content: center;
   text-align: center;
+  font-family: "TTNorms";
+  color: #9e9e9e;
 }
+
+/* Contact us container */
+
+.contact-container{
+  background-color: darkgrey;
+  text-align: center;
+  padding: 60px 80px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.contact-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.contact-container p {
+  color: #666;
+  font-size: 1.2em;
+}
+
+/* Left contact images */
+
+.row{
+  display: flex;
+}
+
+.four-images{
+  flex: 0 1 25% ;
+  padding: 10px;
+  object-fit: cover;
+  }
+
+.four-images img {
+  width: 100%; 
+  height: auto; 
+  }
+
+  /* Styles for the right container */
+.form-col {
+  padding: 10px; /* Adjust padding as needed */
+}
+
+/* Styles for the main content */
+.main-content {
+  background-color: #fff; /* Or any color that matches your design */
+  padding: 20px;
+  border-radius: 5px; /* Optional: adds rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
+}
+
+/* Styles for the contact form */
+.contact-form {
+  
+  ; /* Centers the form in the container */
+  padding: 20px;
+}
+
+.form-element {
+  margin-bottom: 20px; /* Space between form elements */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width of the form */
+  padding: 10px; /* Padding inside the input/textarea */
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.submit-button {
+  width: 100%; /* Full width of the form */
+  padding: 10px 20px; /* Padding inside the button */
+  background-color: #333; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+.text-center {
+  text-align: center;
+}
+
 
 /* Responsive design */
 @media (max-width: 768px) {
