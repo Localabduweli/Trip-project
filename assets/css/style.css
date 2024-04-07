@@ -171,6 +171,25 @@ footer i {
   opacity: 1;
 }
 
+/* reduces the size of slides for small phones to fit screen*/
+@media screen and (max-width: 340px) {
+  .slider img{ height: 100%;
+    }
+  
+  .slider-nav a {
+    width: 1 rem;
+    height: 1 rem;
+  }
+  }
+
+.fa-solid {
+  font-size: 2rem;
+  color: #008080;
+}
+
+
+
+
 /* Navbar styles with dropdown toggle */
 nav {
   position: absolute;
