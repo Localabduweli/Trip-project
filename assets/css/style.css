@@ -434,35 +434,66 @@ h2 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
 }
 
-/* Styles for the contact form */
-.contact-form {
+/* Sign up form */
+
+.form-col {
+  padding: 20px ;
   
-  ; /* Centers the form in the container */
-  padding: 20px;
+  margin-left: 200px;
+  margin-top :10px;
+  border:2px solid black;
+  border-radius: 5px;
+  background-color: #9e9e9e;
+  }
+
+
+
+#form-contact>h2 {
+  color: black;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 40px;
 }
 
-.form-element {
-  margin-bottom: 20px; /* Space between form elements */
+.text_input {
+  margin-bottom: 10px;
+  border-radius: 2px;
+  padding: 5px 2px;
+  font-size: 100%;
+  color: black;
+  width: 100%;
+  }
+
+#email_address{
+  margin-top: 0;
+  
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%; /* Full width of the form */
-  padding: 10px; /* Padding inside the input/textarea */
-  border: 1px solid #ddd; /* Border color */
-  border-radius: 4px; /* Rounded corners */
+ #signup-form {
+      max-width: 900px;
+      left: 35%;
+      top: 150px;
+      position:static;
+  }
+
+.text-input:hover {
+      border-color: #fcd7e8;
+  }
+
+#sign_button:hover {
+      background-color: #fcd7e8;
+     }
+
+.sign_button{
+  padding: 10px 40px;
+  border-radius: 5%;
+  margin-top: 20px;
 }
 
-.submit-button {
-  width: 100%; /* Full width of the form */
-  padding: 10px 20px; /* Padding inside the button */
-  background-color: #333; /* Button color */
-  color: white; /* Text color */
-  border: none; /* No border */
-  border-radius: 4px; /* Rounded corners */
-  cursor: pointer; /* Cursor changes to pointer on hover */
-}
+
+
+
+
 
 .text-center {
   text-align: center;
