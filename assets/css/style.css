@@ -77,8 +77,8 @@ header {
 }
 
 .logo {
-  width: 100px; /* Set the desired width of the container */
-  height: 100px; /* Set the desired height of the container */
+  width: 100px; 
+  height: 100px; 
   object-fit: contain;
   border: 1px solid black;
   position: relative;
@@ -240,7 +240,7 @@ nav {
   background-color: #ffffff;
   padding: 0 4px;
   display: flex;
-  border: 2px solid #3a3a3a;  /* Adjusted border property */
+  border: 2px solid #3a3a3a; 
   width: 400px;
   height: 50px; 
   margin-top: 1px;
@@ -360,22 +360,22 @@ main{
 
 
 }
-/* This is the discovery page */
-/* Basic container styling */
+/* discovery page */
+
 .discovery-container {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Section styling */
+
 .discovery-section {
   border: 1px solid #ddd;
   padding: 10px;
   margin-bottom: 20px;
 }
 
-/* Image styling */
+
 .discovery-section img {
   width: 100%;
   height: auto;
@@ -383,14 +383,14 @@ main{
   margin-bottom: 10px;
 }
 
-/* Headings */
+
 .discovery-section h3 {
   color: #333;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-/* List styling */
+
 .discovery-section ul {
   list-style-type: none;
   padding: 0;
@@ -402,7 +402,6 @@ main{
   margin-bottom: 5px;
 }
 
-/* Links */
 .discovery-section a {
   text-decoration: none;
   color: inherit;
@@ -449,6 +448,25 @@ main{
   
 }
 
+/* reduces the size of pic for small phones to fit screen*/
+@media screen and (max-width: 340px) {
+ #picture-barca img{
+  height: 100%;
+  max-width: 350px;
+  width: 100%;
+ }
+  }
+
+/* reduces the size of pic for tablets to fit screen*/
+@media screen and (max-width: 768px) {
+  #picture-barca img{
+   height: 100%;
+   max-width: 768px;
+   width: 100%;
+  }
+   }
+ 
+
 h2 {
   margin-left: 5px;
   
@@ -470,6 +488,28 @@ h2 {
   color: #9e9e9e;
 }
 
+/* reduces the size of text for small phones to fit screen*/
+@media screen and (max-width: 340px) {
+  
+  }
+  #review-barcelona p{
+   padding: 20px;
+   font-size: 17px;
+   text-align: center;
+   
+  }
+   }
+ 
+/* justfies the size of text for tablets to fit screen*/
+@media screen and (max-width: 768px) {
+  #review-barcelona p{
+   
+   text-align: justify;
+   padding:20px;
+   font-size: 1.5rem;
+  }
+   }
+ 
 /* Contact us container */
 
 .contact-container{
@@ -490,7 +530,7 @@ h2 {
   font-size: 1.2em;
 }
 
-/* Left contact images */
+/* left images */
 
 .row{
   display: flex;
@@ -507,17 +547,17 @@ h2 {
   height: auto; 
   }
 
-  /* Styles for the right container */
+  /*right container */
 .form-col {
-  padding: 10px; /* Adjust padding as needed */
+  padding: 10px; 
 }
 
-/* Styles for the main content */
+/* main content */
 .main-content {
-  background-color: #fff; /* Or any color that matches your design */
+  background-color: #fff; 
   padding: 20px;
-  border-radius: 5px; /* Optional: adds rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 /* Sign up form */
@@ -586,7 +626,6 @@ h2 {
 }
 
 
-/* Responsive design */
 @media (max-width: 768px) {
   .container {
       width: 95%;
@@ -596,9 +635,9 @@ h2 {
 
 
 
-/* Media query: tablets and larger (768 and up) */
+
 @media screen and (min-width: 768px) {
-  /* Header section */
+  
   header {
     justify-content: space-around;
   }
@@ -629,7 +668,3 @@ h2 {
 
 }
 
-/* Media query: tablets and larger (992px and up) */
-@media screen and (min-width: 992px) {
-  /* ... (other styles remain the same) */
-}
