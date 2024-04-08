@@ -173,7 +173,9 @@ footer i {
 
 /* reduces the size of slides for small phones to fit screen*/
 @media screen and (max-width: 340px) {
-  .slider img{ height: 100%;
+  .slider img{ height: auto;
+    width: 100%;
+    
     }
   
   .slider-nav a {
@@ -321,7 +323,34 @@ main{
 
 }
 
+/* reduces the size of text for small phones to fit screen*/
+@media screen and (max-width: 340px) {
+  .caption-slide{
+    width: 100%;
+    text-align: justify;
+    padding: 5px;
+    
+  }
+  .caption-slide P { 
+    margin: 1px;
+    line-height: 1;
+    font-size: 0.75rem;
+    }
+  }
 
+/* spreads the size of text evenly for tablets*/
+@media screen and (max-width: 768px) {
+  .caption-slide{
+    padding: 20px;
+    text-align: justify ;
+  }
+  
+  .caption-slide P { 
+    margin: 1px;
+    line-height: 1;
+    font-size: 1.7rem;
+    }
+  }
 /* discover title*/
 .discover-title{
   font-size: 32px;
