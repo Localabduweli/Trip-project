@@ -227,6 +227,10 @@ nav {
 
 /* CSS for the search form */
 
+#search-form{
+  color: white;
+}
+
 .center-container{
   display:flex;
   justify-content: center;
@@ -237,7 +241,7 @@ nav {
 }
 .city-form {
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: #05203c;
   padding: 0 4px;
   display: flex;
   border: 2px solid #3a3a3a; 
@@ -246,19 +250,22 @@ nav {
   margin-top: 1px;
   justify-content: center;
   align-items: center;
-  
-  
-}
+  }
 
 #submit {
-  background-color: #34e0a1;
+  background-color: #0062e3;
+  color: white;
   padding: 1px 0.5px;
   justify-content: center;
   align-items: center;
-  border: none;
+  border: 2px solid  #0062e3 ;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  margin-top: 3px ;
   width: 65px;
   height: 20px;
   display: flex;
+  margin-left: 30px;
 }
 
 main{
