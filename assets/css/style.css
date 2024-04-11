@@ -81,7 +81,11 @@ header {
   height: 100px; 
   object-fit: contain;
   border: 1px solid black;
+  border-radius: 50% ;
   position: relative;
+  margin-top: 3px;
+  margin-right: 700px;
+  
 }
 .nav-list {
   font-size: var(--header-size);
