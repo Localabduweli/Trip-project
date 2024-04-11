@@ -84,7 +84,7 @@ header {
   border-radius: 50% ;
   position: relative;
   margin-top: 3px;
-  margin-right: 700px;
+  
   
 }
 .nav-list {
@@ -355,15 +355,18 @@ main{
 
 
 /* discover title*/
-.discover-title{
-  font-size: 32px;
-  font-family: "Roboto", sans-serif;
+.discover-title h2{
+  font-size: 375%;
   text-align: center;
   margin: 20px 0;
-
+  text-shadow: 2px 2px 6px #000;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 /* discovery page */
+
+
 
 .discovery-container {
   width: 80%;
