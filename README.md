@@ -11,6 +11,13 @@
 <img  width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/3de8096c-3d2c-4e4b-a56c-f4051bd0c574">
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/f3e2d19d-3703-4141-8d44-a99cd8fa5c22">
 
+<ul>
+  <li>Home page included pictures of cities across Europe</li>
+  <li>Brief description of what the user can find on our website </li>
+  <li>Link to our socials</li>
+</ul>
+
+
 <h2>Discover page</h2>
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/7ed022b5-0cd8-4d03-8bfc-e68ccad2551c">
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/da8bc0b5-42f3-437b-8dfb-f4eedd8d5a77">
@@ -18,5 +25,9 @@
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/13de6d8f-c06b-49f3-854a-90d7427086e3">
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/4920c125-22db-4c0f-8535-39ffaafe1a5f">
 
-
+<ul>
+  <li>Title of "choice of destinations is to promote endless posibalities </li>
+  <li>Each itinary has a captivating image of the city</li>
+  <li>List type is square bullet points and included is a list of events or food places the user can enjoy </li>
+</ul>
 
