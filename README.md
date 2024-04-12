@@ -50,3 +50,24 @@
   <li>Color chosen was #cfd3cf this was to detail a warm and welcolming enviorment </li>
 </ul>
 
+<h2>HTML validation</h2>
+<img  width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/08265cb7-de84-41b1-88b1-8f02474176be">
+<P>W3C Markup validation was used they were no errors </P>
+
+<h2>CSS validation</h2>
+<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/efac4f9b-b01e-48a6-9833-c9fdd4e17dd9">
+
+<h2>Lighthouse performance</h2>
+<p>Google's lighthouse generated a perfomance report based on 4 criteria's performance, acceddibility, best practices and seo</p>
+<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/c558a924-0fcd-4cd3-90c9-05290bb2e3c1">
+
+<h2>Future considerations</h2>
+<ul>
+  <li>Review of a much larger pool of countries  </li>
+  <li>Using an API to allow for users to share theyre experiances in various countries</li>
+  <li> Incoparate a much detailed itenary list </li>
+</ul>
+
+
+
+
