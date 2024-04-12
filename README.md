@@ -12,8 +12,11 @@
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/f3e2d19d-3703-4141-8d44-a99cd8fa5c22">
 
 <h2>Discover page</h2>
-<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/c0ec3420-7530-4b76-9961-8db8d8322b09">
-<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/08037514-d8e0-43af-add4-e23028d846dd">
+<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/7ed022b5-0cd8-4d03-8bfc-e68ccad2551c">
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/da8bc0b5-42f3-437b-8dfb-f4eedd8d5a77">
+<img width="400%" height="400%"alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/5f14c2a5-f276-405b-976c-600ea1b2f9d8">
+<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/13de6d8f-c06b-49f3-854a-90d7427086e3">
+<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/4920c125-22db-4c0f-8535-39ffaafe1a5f">
+
 
 
