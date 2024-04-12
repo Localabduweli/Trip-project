@@ -5,4 +5,6 @@
 
 <p> Live link can be found here </p> <a href="https://localabduweli.github.io/Trip-project/">Tripit</a>
 
-![image](https://github.com/Localabduweli/Trip-project/assets/149704850/7d06cc49-c188-4a7c-9888-4c23a315eee6)
+<p>Am I responsive</p>
+<img width="300px" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/fa2f6321-5952-46eb-92ba-aff8bd658ce1">
+
