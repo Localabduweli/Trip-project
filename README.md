@@ -3,3 +3,4 @@
 
 <h2>Table of contents</h2>
 
+<p> Live link can be found here [Tripit](https://localabduweli.github.io/Trip-project/) </p>
