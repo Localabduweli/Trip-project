@@ -714,10 +714,16 @@ h2 {
 }
 
 #social-networks{
-  background-color: #0062e3;
+  background-color: #3a3a3a;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
   padding: 20px 0 ;
+}
+
+#social-networks i {
+  font-size: 160%;
+  color: #ffffff;
+
 }
