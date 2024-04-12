@@ -31,3 +31,16 @@
   <li>List type is square bullet points and included is a list of events or food places the user can enjoy </li>
 </ul>
 
+<h2>Review page</h2>
+<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/76c649a9-a8f8-40b6-a434-558b223f03c3">
+<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/bc2f6f0e-7718-4716-a65a-e7a041ee928d">
+
+<ul>
+  <li>Review of Barcelona with information on currency and languages spoken, includes a 5 star review </li>
+  <li>Brief blog description using article tags</li>
+  <li>Color chosen was #cfd3cf this was to detail a warm and welcolming enviorment </li>
+</ul>
+
+<h2>Sign up page</h2>
+<img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/36a3b959-b5c8-426a-abaf-93dd19425d83">
+
