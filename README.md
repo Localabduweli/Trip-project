@@ -5,3 +5,4 @@
 
 <p> Live link can be found here </p> <a href="https://localabduweli.github.io/Trip-project/">Tripit</a>
 
+![image](https://github.com/Localabduweli/Trip-project/assets/149704850/7d06cc49-c188-4a7c-9888-4c23a315eee6)
