@@ -1,4 +1,4 @@
-<h1>Welcolme to Tripit</h1>
+<h1>Welcome to Tripit</h1>
 <p>Tripit is a travel planning website that allows users to discover and read reviews on itineraries for countries around the world. The main target audience is for users who travel globally and want to utilise detailed planning advice from previous travelers. Tripit provides a user-friendly interface where you can find bullet-pointed travel plans tailored to food places and popular destination hotspots. Currently, Tripit includes a list of countries in Europe, ranging from Paris to Instanbul.</p> 
 
 <h2>Table of contents</h2>
@@ -26,8 +26,8 @@
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/4920c125-22db-4c0f-8535-39ffaafe1a5f">
 
 <ul>
-  <li>Title of "choice of destinations is to promote endless posibalities </li>
-  <li>Each itinary has a captivating image of the city</li>
+  <li>Title of "choice of destinations is to promote endless possibilities </li>
+  <li>Each itinerary has a captivating image of the city</li>
   <li>List type is square bullet points and included is a list of events or food places the user can enjoy </li>
 </ul>
 
@@ -38,27 +38,27 @@
 <ul>
   <li>Review of Barcelona with information on currency and languages spoken, includes a 5 star review </li>
   <li>Brief blog description using article tags</li>
-  <li>Color chosen was #cfd3cf this was to detail a warm and welcolming enviorment </li>
+  <li>Color chosen was #cfd3cf this was to detail a warm and welcoming enviorment </li>
 </ul>
 
 <h2>Sign up page</h2>
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/36a3b959-b5c8-426a-abaf-93dd19425d83">
 
 <ul>
-  <li>Review of Barcelona with information on currency and languages spoken, includes a 5 star review </li>
-  <li>Brief blog description using article tags</li>
-  <li>Color chosen was #cfd3cf this was to detail a warm and welcolming enviorment </li>
+  <li>Pictures of various cities on the left </li>
+  <li>Two way column used to place the form on the right of the images</li>
+  <li>Color chosen was #9e9e9e </li>
 </ul>
 
 <h2>HTML validation</h2>
 <img  width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/08265cb7-de84-41b1-88b1-8f02474176be">
-<P>W3C Markup validation was used they were no errors </P>
+<P>W3C Markup validation was used as they were no errors </P>
 
 <h2>CSS validation</h2>
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/efac4f9b-b01e-48a6-9833-c9fdd4e17dd9">
 
 <h2>Lighthouse performance</h2>
-<p>Google's lighthouse generated a perfomance report based on 4 criteria's performance, acceddibility, best practices and seo</p>
+<p>Google's lighthouse generated a perfomance report based on 4 criteria's performance, accessibility, best practices and seo</p>
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/c558a924-0fcd-4cd3-90c9-05290bb2e3c1">
 
 <h2>Future considerations</h2>
@@ -68,6 +68,25 @@
   <li> Incoparate a much detailed itenary list </li>
 </ul>
 
+<h2>Technologies used </h2>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>W3schools</li>
+  <li>Google Fonts</li>
+  <li>Google images </li>
+  <li>Google lighthouse</li>
+  <li>HTML validation service</li>
+  <li>CSS validation service</li>
+  <li>Github</li>
+  <li>VS CODE</li>
+  </ul>
 
+  <h2>Git commands</h2>
+  <ul>
+    <li>Git add .</li>
+    <li>Git commit -m "commit message"</li>
+    <li>Git push</li>
+  </ul>
 
 
