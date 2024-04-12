@@ -44,3 +44,9 @@
 <h2>Sign up page</h2>
 <img width="400%" height="400%" alt="image" src="https://github.com/Localabduweli/Trip-project/assets/149704850/36a3b959-b5c8-426a-abaf-93dd19425d83">
 
+<ul>
+  <li>Review of Barcelona with information on currency and languages spoken, includes a 5 star review </li>
+  <li>Brief blog description using article tags</li>
+  <li>Color chosen was #cfd3cf this was to detail a warm and welcolming enviorment </li>
+</ul>
+
